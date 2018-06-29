@@ -1,0 +1,172 @@
+/* Contenido de la página web*/
+body{
+	background-color: white;
+	background-image: url(Images/Background.jpg); 
+	background-repeat: no-repeat; 
+	background-position: center center; 
+	background-attachment: fixed;
+	font-family: Arial, sans-serif;
+	width: 70%;
+  	margin: 0 auto;
+}
+/*link de contacto*/
+#contacto{
+	height: 1px;
+}
+#contacto li {
+	list-style: none;
+	display: inline;
+	padding: 3px;
+}
+#contacto li a{
+	color: #660066;
+	text-decoration: none;
+}
+#contacto li a:hover{
+	color: blue;
+}
+/*Cabecera de la página web*/
+#header{
+	vertical-align: center;
+	text-align: center;
+	font-family:  fantasy;
+	font-size: 30px;
+	height: 60px;
+}
+/*Contenedor para la parte central*/
+#wrapper{
+}
+/*menu*/
+#navcontainer{
+	background-color:  black;
+}
+#navlist{
+	font: bold 16px Verdana, sans-serif; 
+	margin-left: 25%;
+	padding: 3px;
+}
+#navlist li{
+	list-style: none;
+	display: inline;
+	padding: 2px 1em;
+	border-bottom: none;
+	background: black;
+	text-decoration: none;
+}
+#navlist li:hover{
+	background: white;
+	border-color:  black;
+}
+#navlist li a{
+	color: white;
+	text-decoration: none;
+}
+#navlist li a:hover{
+	color: black;
+}
+/*cuerpo*/
+#body{
+	background-color:  #ccccff;
+	border-style: solid;
+	border-color:  black;
+	padding: 0px 5px;
+	width: 80%;
+	float: left;
+	border-radius: 25px;
+}
+/*formulario de contacto*/
+p.destacado {
+	background-color: orange;
+	font-weight:bold;
+	font-size:100%;
+}
+/* Menu Lateral */
+#LateralContainer{
+	background-color:  black;
+	width: 15%;
+	float: right;
+  	margin: 0 0;
+}
+#navlist2{
+	font: bold 16px Verdana, sans-serif; 
+	margin-left: 25%;
+	padding: 3px;
+}
+#navlist li2{
+	list-style: none;
+	padding: 2px 1em;
+	border-bottom: none;
+	background: black;
+	text-decoration: none;
+}
+#navlist2 li:hover{
+	background: white;
+	border-color:  black;
+}
+#navlist2 li a{
+	color: white;
+	text-decoration: none;
+}
+#navlist2 li a:hover{
+	color: black;
+}
+/*Pie de página o footer*/
+#footer{
+	width: 400px;
+	float: right;
+}
+#logo{
+	width: 50px;
+	height: 50px;
+}
+/*
+div {border-style: solid;}
+div div {border-style: dashed; border-color: green; margin: 5px;}
+div div div {border-style: dashed; border-color: red; margin: 5px;}
+
+ul {color:red;}
+ul.especial li:nth-child(odd) {background-color: hsl(0,0%,50%);} hsl (anguloDeGiroColor, sombraGrisSaturación%, CantidadDeAzul, brillo%)
+ul.especial li:nth-child(even) {background-color: pink;}
+
+ul.destacado {background-color: rgb(255,255,255);} 
+li:first-child {background-color: rgba(255,0,0,1);}
+li:nth-child(2){background-color: rgba(255,0,0,0.66);}
+li:nth-child(3){background-color: rgba(255,0,0,0.33);}
+li:nth-child(4){background-color: rgba(255,0,0,0);}
+
+a {color:green; text-decoration: none;}
+#menu {color:red; background-color:DarkGray;}
+#menu a {color:green; text-decoration:none;}
+
+div.destacado {background-color: teal; font-weight:bold; font-size:100%; }
+p.destacado a, div.destacado a {background-color: yellow; font-size:120%;}
+img[title]{border-style:solid; border-width: 5px; border-color: LightSalmon;}
+
+input[name] { background-color: red;}
+p[title] {background-color: yellow;}
+input[name="correo"]{background-color: yellow; font-size:75%;}
+a[href^="http://www.aprender"] {background-color: rgb(255, 255, 0); font-size:75%;}
+a[href*="aprenderaprogramar"] {background-color: #9999FF; font-size:125%;}
+a[href$=".com"], a[href$="6"] {background-color: rgb(0%, 100%, 100%); font-size:125%;}
+
+div > ul { background-color: silver;}
+div > p.destacado {background-color: pink;}
+div > img[src$=".png"] {background-color: blue; }
+p.destacado + p { color: green;} 
+p.destacado ~ p{ color: maroon;}
+*/
+/*	
+li:first-child {font-size: 200%;}
+li:last-child {font-size: 200%;}
+li:nth-child(3) {font-size: 200%;}
+div.destacado img:only-child{border-style:solid; border-width:10px;}
+p.destacado:nth-child(2) {font-size: 50%;}
+p:not(.destacado) {color: yellow;}
+p::first-letter {font-size: 300%;}
+p::first-line {color:red}
+h1::after {content:"***"; background-color: yellow;}
+h1::before {content:"---"; color: blue;}
+li:nth-last-child(2) {font-size: 200%;}
+li:nth-of-type(odd) {font-size: 200%; color: red;}
+li:nth-of-type(even) {font-size: 100%;}
+*/
